@@ -1,4 +1,4 @@
-FROM public.ecr.aws/b0r2u1q3/nodejs-technotrainer:8.11-alpine
+FROM quay.io/sunaina_bansal/nodejs-technotrainer:8.11-alpine
 
 WORKDIR /usr/src/app
 
