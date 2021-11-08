@@ -1,12 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var sleep = require('system-sleep');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    console.log('Start - Sleep for 10 seconds');
-    sleep(1000);
-    console.log('End - Sleep for 10 seconds');
   res.render('index', { title: 'Express' });
 });
 
