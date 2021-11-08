@@ -1,4 +1,7 @@
-FROM node:14.18.1-alpine
+FROM quay.io/sunaina_bansal/nodejs-technotrainer:14.18.1-alpine
+
+RUN pwd
+RUN whoami
 
 WORKDIR /usr/src/app
 
