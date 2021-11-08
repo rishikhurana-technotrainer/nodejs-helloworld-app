@@ -1,4 +1,4 @@
-FROM quay.io/sunaina_bansal/nodejs-technotrainer:8.11-alpine
+FROM node:8.11-alpine
 
 WORKDIR /usr/src/app
 
