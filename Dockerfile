@@ -1,4 +1,6 @@
-FROM node:8.11-alpine
+FROM openshift/nodejs:14-ubi8
+
+USER root
 
 WORKDIR /usr/src/app
 
