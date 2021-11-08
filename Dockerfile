@@ -1,7 +1,5 @@
-FROM quay.io/sunaina_bansal/nodejs-technotrainer:8.11-alpine
+FROM node:8.11-alpine
 
-RUN cat /etc/containers/registries.conf
-RUN whoami
 WORKDIR /usr/src/app
 
 ARG NODE_ENV
