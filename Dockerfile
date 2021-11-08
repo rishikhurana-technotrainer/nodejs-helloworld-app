@@ -1,18 +1,18 @@
 FROM quay.io/sunaina_bansal/nodejs-technotrainer:8.11-alpine
 
-RUN pwd
-RUN whoami
+#RUN pwd
+#RUN whoami
 
-WORKDIR /usr/src/app
+WORKDIR /project
 
 ARG NODE_ENV
 ENV NODE_ENV $NODE_ENV
 
-COPY package*.json /usr/src/app/
+COPY package*.json /project
 RUN npm install
 RUN npm install system-sleep
 
-COPY . /usr/src/app
+COPY . /project
 
 ENV PORT 8080
 EXPOSE $PORT
