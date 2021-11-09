@@ -1,5 +1,5 @@
-#FROM openshift/nodejs:14-ubi8
-FROM image-registry.openshift-image-registry.svc:5000/openshift/nodejs@sha256:ec762c5913616b93f7e9aeb8e856cf8e45d8daa24cb175695787abd97f3d5555
+FROM openshift/nodejs:14-ubi8
+#FROM image-registry.openshift-image-registry.svc:5000/openshift/nodejs@sha256:ec762c5913616b93f7e9aeb8e856cf8e45d8daa24cb175695787abd97f3d5555
 
 USER root
 
